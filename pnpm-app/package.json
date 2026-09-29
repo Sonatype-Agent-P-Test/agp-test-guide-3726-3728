@@ -6,9 +6,9 @@
     "build": "node -e \"require('lodash'); require('minimist'); require('semver'); require('fs').accessSync(require.resolve('native-dep/BUILT')); console.log('ok')\""
   },
   "dependencies": {
-    "lodash": "4.17.15",
+    "lodash": "4.18.1",
     "minimist": "1.2.5",
-    "semver": "7.5.1",
-    "native-dep": "file:./native-dep"
+    "native-dep": "file:./native-dep",
+    "semver": "7.5.1"
   }
 }

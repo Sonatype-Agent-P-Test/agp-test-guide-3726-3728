@@ -2,7 +2,6 @@
   "name": "pnpm-app",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "build": "node -e \"require('lodash'); require('minimist'); require('semver'); require('fs').accessSync(require.resolve('native-dep/BUILT')); console.log('ok')\""
   },

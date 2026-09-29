@@ -1,0 +1,6 @@
+{
+  "name": "native-dep",
+  "version": "1.0.0",
+  "scripts": { "postinstall": "node -e \"require('fs').writeFileSync('BUILT','built')\"" },
+  "dependencies": { "is-number": "github:jonschlinkert/is-number#98e8ff1" }
+}

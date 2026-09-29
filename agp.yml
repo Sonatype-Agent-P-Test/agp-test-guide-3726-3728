@@ -1,0 +1,12 @@
+version: "1"
+agent:
+  enabled: false
+projects:
+  pnpm-app:
+    path: pnpm-app
+    ecosystem: npm
+    validation: { enabled: true, commands: ["pnpm run build"] }
+  gradle-app:
+    path: gradle-app
+    ecosystem: gradle
+    validation: { enabled: true, commands: ["gradle --no-daemon build"] }
